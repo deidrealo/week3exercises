@@ -1,0 +1,40 @@
+nav {
+	text-align: center;
+	background-color: #ADD8E6;
+	padding: 20px 0 20px 0;
+	margin: -10px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 5px 10px;
+	color: white;
+	transition: 0.5s ease;
+}
+nav ul li a {
+	transition: 0.5s ease;
+}
+nav ul li:hover {
+	background-color: #BA55D3;
+	border: 2px solid white;
+	transform: scale(1.4)
+}
+nav ul li:hover a {
+	color: #FFF;
+}
+div#button {
+	text-align: center;
+	padding: 50px 0;
+}
+button {
+	background-color: #db7093;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 25px;
+	margin: 5px;
+	transition: 0.25s ease;
+}
+button:hover {
+	background-color: #778899;
+	color: #FFF;
